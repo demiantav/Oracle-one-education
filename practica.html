@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Practicas Oracle One Education</title>
+</head>
+<body>
+
+  <input></input>
+  <button>validar</button>
+
+<script>
+
+  let palabra = "caca";
+  let input = document.querySelector("input"); // De esta manera traemos la primera coincidencia de etiqueta (input)
+
+  function check(){
+
+    if(input.value === palabra){
+
+      alert("Es correcto");
+
+    } else {
+
+      alert("Es incorrecto");
+    }
+
+
+
+  }
+
+  let button = document.querySelector("button");
+  button.onclick= check;
+
+  </script>
+
+</body>
+</html>
